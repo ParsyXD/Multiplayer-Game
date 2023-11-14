@@ -3,18 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Ship
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - post pro
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Ground
+  - Wall
+  - Player
   - 
   - 
   - 
