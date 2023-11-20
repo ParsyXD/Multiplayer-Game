@@ -11,11 +11,10 @@ public class InventorySystem : NetworkBehaviour
     void Start()
     {
         if (!isLocalPlayer)return;
-        CmdPickupGun();
 
     }
 
-    /*private void Update() 
+    private void Update() 
     {
         if (!isLocalPlayer)return;
 
@@ -23,7 +22,7 @@ public class InventorySystem : NetworkBehaviour
         {
             CmdPickupGun();
         }  
-    }*/
+    }
 
 
 

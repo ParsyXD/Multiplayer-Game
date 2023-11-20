@@ -1437,7 +1437,6 @@ GameObject:
   - component: {fileID: 305175250}
   - component: {fileID: 305175249}
   - component: {fileID: 305175248}
-  - component: {fileID: 305175253}
   - component: {fileID: 305175252}
   m_Layer: 3
   m_Name: Camera
@@ -1583,18 +1582,6 @@ MonoBehaviour:
   minDistance: 0.5
   focusSpeed: 1
   updateFrequency: 2
---- !u!114 &305175253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305175247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f2b1d1d3c5c1074283c0ae72e552e1e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &375366006
 GameObject:
   m_ObjectHideFlags: 0
@@ -17944,6 +17931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensX: 300
   sensY: 300
+  rotationSpeed: 5
   orientation: {fileID: 6817236498478633704}
   camHolder: {fileID: 6817236498916344984}
 --- !u!4 &6817236497136883751
@@ -18556,7 +18544,6 @@ MonoBehaviour:
   maxSlopeAngle: 40
   climbingScript: {fileID: 6817236498048696502}
   PlayerModel: {fileID: 0}
-  PlayerCamera: {fileID: 0}
   orientation: {fileID: 6817236498478633704}
   state: 0
   sliding: 0

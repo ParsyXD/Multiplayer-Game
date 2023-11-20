@@ -675,20 +675,20 @@ MonoBehaviour:
   runInBackground: 1
   autoStartServerBuild: 1
   autoConnectClientBuild: 0
-  sendRate: 50
+  sendRate: 80
   offlineScene: 
   onlineScene: 
-  transport: {fileID: 0}
+  transport: {fileID: 438644259}
   networkAddress: localhost
   maxConnections: 20
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 8281468538327306065, guid: 0e7139ff5d2723c488d36e725a719b33, type: 3}
+  playerPrefab: {fileID: 3926586000642262952, guid: 762f3b85b3a73ad4f849fe34045a982b, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 0
   spawnPrefabs:
-  - {fileID: 3926586000642262952, guid: 762f3b85b3a73ad4f849fe34045a982b, type: 3}
+  - {fileID: 1475417419859706145, guid: 7be86016ed7db4e449a11784b6efb187, type: 3}
   snapshotSettings:
     bufferTimeMultiplier: 2
     bufferLimit: 32
@@ -703,6 +703,7 @@ MonoBehaviour:
   connectionQualityInterval: 3
   timeInterpolationGui: 0
   GamePlayerPrefab: {fileID: 1522873874193800811, guid: 762f3b85b3a73ad4f849fe34045a982b, type: 3}
+  weaponsFolder: Assets/Game/Weapons
 --- !u!4 &438644261
 Transform:
   m_ObjectHideFlags: 0

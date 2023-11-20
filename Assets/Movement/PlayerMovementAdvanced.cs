@@ -52,7 +52,6 @@ public class PlayerMovementAdvanced : NetworkBehaviour
     [Header("References")]
     public Climbing climbingScript;
     public GameObject PlayerModel;
-    public Transform PlayerCamera;
     public Transform orientation;
 
     float horizontalInput;

@@ -16,10 +16,7 @@ public class Health : NetworkBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (Player)
-        {
-            if (!isServer) return;
-        }
+        if (Player && !isServer) return;
 
         health -= damage;
         if (health <= 0)
