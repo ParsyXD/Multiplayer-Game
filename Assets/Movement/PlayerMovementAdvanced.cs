@@ -51,7 +51,7 @@ public class PlayerMovementAdvanced : NetworkBehaviour
 
     [Header("References")]
     public Climbing climbingScript;
-    public GameObject PlayerModel;
+    public GameObject Camera;
     public Transform orientation;
 
     float horizontalInput;
@@ -81,7 +81,7 @@ public class PlayerMovementAdvanced : NetworkBehaviour
 
     private void Start() 
     {
-        PlayerModel.SetActive(false);
+        Camera.SetActive(false);
         
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
@@ -91,9 +91,9 @@ public class PlayerMovementAdvanced : NetworkBehaviour
 
         if (hasAuthority)
         {
-            if (PlayerModel.activeSelf == false)
+            if (Camera.activeSelf == false)
             {
-                PlayerModel.SetActive(true);
+                Camera.SetActive(true);
                 SpawnPosition();
             }
         }
@@ -353,6 +353,6 @@ public class PlayerMovementAdvanced : NetworkBehaviour
 
         public void SpawnPosition()
     {
-        transform.position = new Vector3(12, 3, Random.Range(-5, 7));
+        transform.position = new Vector3(12, 4, Random.Range(-5, 7));
     }
 }
