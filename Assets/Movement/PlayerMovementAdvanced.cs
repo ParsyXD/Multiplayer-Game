@@ -89,7 +89,7 @@ public class PlayerMovementAdvanced : NetworkBehaviour
         readyToJump = true;
         startYScale = transform.localScale.y;
 
-        if (SceneManager.GetActiveScene().name == MapManager.Instance.Map)
+        if (hasAuthority)
         {
             if (PlayerModel.activeSelf == false)
             {
