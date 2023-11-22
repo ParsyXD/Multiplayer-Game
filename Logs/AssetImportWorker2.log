@@ -1,0 +1,455 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'de' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Spiele\Unity Hub\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/emdej/Downloads/Compressed/project/Multiplayer-Game
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54754
+Successfully changed project path to: C:/Users/emdej/Downloads/Compressed/project/Multiplayer-Game
+C:/Users/emdej/Downloads/Compressed/project/Multiplayer-Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12752] Host "[IP] 192.168.178.23 [Port] 0 [Flags] 2 [Guid] 942370933 [EditorId] 942370933 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BC3PA0A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12752] Host "[IP] 192.168.178.23 [Port] 0 [Flags] 2 [Guid] 942370933 [EditorId] 942370933 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BC3PA0A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 16.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emdej/Downloads/Compressed/project/Multiplayer-Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+d3d12: loaded!
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon RX 6600 (ID=0x73ff)
+    Vendor:          ATI
+    VRAM:            8146 MB
+    App VRAM Budget: 7378 MB
+    Driver:          31.0.21024.3006
+d3d12: Profiler is enabled, but stable power state is not. GPU timing errors are expected.
+Initialize mono
+Mono path[0] = 'G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005007 seconds.
+- Loaded All Assemblies, in  0.268 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.203 seconds
+Domain Reload Profiling: 470ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (203ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.679 seconds
+Refreshing native plugins compatible for Editor in 7.73 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mirror | mirror-networking.com | discord.gg/N9QVxbM
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Mirror.Welcome:OnInitializeOnLoad () (at C:/Users/emdej/Downloads/Compressed/project/Steam Multiplayer/Assets/Mirror/Editor/Welcome.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: C:/Users/emdej/Downloads/Compressed/project/Steam Multiplayer/Assets/Mirror/Editor/Welcome.cs Line: 18)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.734 seconds
+Domain Reload Profiling: 1409ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (734ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.22 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6659 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (1.6 MB). Loaded Objects now: 7102.
+Memory consumption went from 276.8 MB to 275.2 MB.
+Total: 5.183100 ms (FindLiveObjects: 0.642000 ms CreateObjectMapping: 0.520500 ms MarkObjects: 3.496000 ms  DeleteObjects: 0.523700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4627.173734 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat
+  artifactKey: Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat using Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2e7ad9cfb157d6603c5fd5f469b163') in 0.487651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_15_Day_a.mat
+  artifactKey: Guid(50bf15468c19e0e40b5bf26662770a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_15_Day_a.mat using Guid(50bf15468c19e0e40b5bf26662770a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 2.549 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.456 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.478 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.583 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.498 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.416 ms.
+ -> (artifact id: '6d77b80c088370478db091b62b41d755') in 0.439098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BrightSky@2x.png
+  artifactKey: Guid(04c70b69874deb746a4c63f1a29f7715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BrightSky@2x.png using Guid(04c70b69874deb746a4c63f1a29f7715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc4d5b569d68d9725a6fcef308e2544') in 0.027399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_CloudySky.png
+  artifactKey: Guid(0c24a3ead3381ee4cb4574c5be266d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/d_CloudySky.png using Guid(0c24a3ead3381ee4cb4574c5be266d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c16fc0e5b35356b07d93b0656a57883') in 0.018420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png
+  artifactKey: Guid(80d697d9e2b2d324da231c441502f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png using Guid(80d697d9e2b2d324da231c441502f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was too small for the requested resource! Size: 16777216. Requested: 33554432.
+d3d12: upload buffer was full! Waited for COPY queue for 4.835 ms.
+ -> (artifact id: '0a8fbcc6c55d43be5b8bc6101f53abf1') in 0.198804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Packs/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_18_day_a.png
+  artifactKey: Guid(79d597b1e21ad6f43a22cf1308281022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_18_day_a.png using Guid(79d597b1e21ad6f43a22cf1308281022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 7.779 ms.
+ -> (artifact id: '28a410812150758dfadb2f499a6b944c') in 0.123016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_15_Day_a.mat
+  artifactKey: Guid(d04fa9ef91692c6429efccdf42970c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_15_Day_a.mat using Guid(d04fa9ef91692c6429efccdf42970c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 9.749 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.838 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.864 ms.
+ -> (artifact id: '110a5ed8dac31c6068dc417e8b9fcc38') in 0.284248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Sky_Procedural.mat
+  artifactKey: Guid(221f9488657b1f1498bb5860cf4c5ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Sky_Procedural.mat using Guid(221f9488657b1f1498bb5860cf4c5ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d5000806836579e1c55713b062aded') in 0.024468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Sky.mat
+  artifactKey: Guid(05ff0682d2ac2374881c429c4b53ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Sky.mat using Guid(05ff0682d2ac2374881c429c4b53ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da61c532a5ad7aea3b8d943ca1d4f0dc') in 0.065160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat
+  artifactKey: Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat using Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 7.814 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 9.332 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.799 ms.
+ -> (artifact id: '12401bc82138b6023633dec3d9fb28e1') in 0.107990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BlueSky@2x.png
+  artifactKey: Guid(42382485181c7b4429560828f54a2bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons/BlueSky@2x.png using Guid(42382485181c7b4429560828f54a2bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2279cc8b8c711ca6e11354633c96f3f6') in 0.022231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asset Packs/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png
+  artifactKey: Guid(7aec8516610b2ff4abcdda8106713279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png using Guid(7aec8516610b2ff4abcdda8106713279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.845 ms.
+ -> (artifact id: 'e6a75f29d506089e6ba251501fca7f8e') in 0.120151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat
+  artifactKey: Guid(aa87107d0c3535c4983a4edb2d0e9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat using Guid(aa87107d0c3535c4983a4edb2d0e9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.799 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.899 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.042 ms.
+ -> (artifact id: '69867d74366b2542f3bd00fc763b85e8') in 0.123022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 20.766375 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Textures/Front_Tex.jpeg
+  artifactKey: Guid(ca928ef0e269448ba82388eb41d48544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Textures/Front_Tex.jpeg using Guid(ca928ef0e269448ba82388eb41d48544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1543fd564783c8ffa20e096e48de93ff') in 0.019580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Textures/Down_Tex.jpeg
+  artifactKey: Guid(9ffeeee1accdc4b4faf2b3e27b226340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Textures/Down_Tex.jpeg using Guid(9ffeeee1accdc4b4faf2b3e27b226340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba508e6643aed5a750848333ba25fd3d') in 0.042613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 45.038352 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Cards.mat
+  artifactKey: Guid(0007dba6afb45374c88b62d209ed9c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Cards.mat using Guid(0007dba6afb45374c88b62d209ed9c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a15f329cb612b146690908bcfa36a45') in 0.455084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_01.mat
+  artifactKey: Guid(51381b84eb87d3d4a8987d5206af840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_01.mat using Guid(51381b84eb87d3d4a8987d5206af840f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd48d812cc092d82fc9e5a3e215eae0') in 0.455031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Plant_WaterLily.mat
+  artifactKey: Guid(3be26af59ef83c14e916aa7874be867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Plant_WaterLily.mat using Guid(3be26af59ef83c14e916aa7874be867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaca55ed04ac08a79c466abc6f87e9ea') in 0.034426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Leaf.mat
+  artifactKey: Guid(af3d69dd3ab4777479ce92faa440698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Leaf.mat using Guid(af3d69dd3ab4777479ce92faa440698b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab69f53dae10613dddded3e880f01dc') in 0.024615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Cloud.mat
+  artifactKey: Guid(93a924b510ed64a488d5faffeefcf7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Cloud.mat using Guid(93a924b510ed64a488d5faffeefcf7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc71574719f7318736e927f2cd49f85') in 0.177147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Leaf.mat
+  artifactKey: Guid(49205e5c7b68f364b92a10e9b3e76a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Shrub_Round_Leaf.mat using Guid(49205e5c7b68f364b92a10e9b3e76a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05217486b0ec5bc6388c05d297595ba3') in 0.059361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_03.mat
+  artifactKey: Guid(856a2ac8937804e4e99a804faa0a61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Plant_Flower_Petal_03.mat using Guid(856a2ac8937804e4e99a804faa0a61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56f7243667b4c7a93d440c26465d39f') in 0.038935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_HumanScale.mat
+  artifactKey: Guid(6d27889a730aa6b44a182a2f4d1d2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_HumanScale.mat using Guid(6d27889a730aa6b44a182a2f4d1d2d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db9b1bedba40ca945b08f4b0b03ad54') in 0.032792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Bark.mat
+  artifactKey: Guid(2bfd4dd55d933b248ac7013ae3db1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Bark.mat using Guid(2bfd4dd55d933b248ac7013ae3db1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f391336659c14c2cd4d72a62746dbf51') in 0.014936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Terrain.mat
+  artifactKey: Guid(9dffff67a35fe044da801331236ae2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Terrain.mat using Guid(9dffff67a35fe044da801331236ae2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a6bcb674e8c3c81da6e6d1241df525') in 0.321206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Leaf.mat
+  artifactKey: Guid(4ea518f471fd6ab469a44aef2fe80780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Tree_Beech_Leaf.mat using Guid(4ea518f471fd6ab469a44aef2fe80780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505cf7fd199654c1fb4c2c0fbda141ef') in 0.015926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Leaf.mat
+  artifactKey: Guid(253f3ec48ed0f8142aa3ee67cbe347eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Tree_Birch_Leaf.mat using Guid(253f3ec48ed0f8142aa3ee67cbe347eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4382abb285620894a5d0beedb5d9f9e4') in 0.028256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Water.mat
+  artifactKey: Guid(9b9fdaaebc85b1241bfb6f555b58ae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/IL3DN/Graphics/Materials/IL3DN_Water.mat using Guid(9b9fdaaebc85b1241bfb6f555b58ae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367db0550ba0ddac79acadd6053c817a') in 0.420891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.550333 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat
+  artifactKey: Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Materials/Skybox.mat using Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6bd9c3ae63229e2f9a407b38379c0c') in 0.021411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
