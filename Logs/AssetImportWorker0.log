@@ -15,7 +15,7 @@ C:/Users/emdej/Downloads/Compressed/project/Multiplayer-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58805
+49868
 Successfully changed project path to: C:/Users/emdej/Downloads/Compressed/project/Multiplayer-Game
 C:/Users/emdej/Downloads/Compressed/project/Multiplayer-Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/emdej/Downloads/Compressed/project/Multiplayer-Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25032] Host "[IP] 192.168.178.23 [Port] 0 [Flags] 2 [Guid] 3574038633 [EditorId] 3574038633 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BC3PA0A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3916] Host "[IP] 192.168.178.23 [Port] 0 [Flags] 2 [Guid] 130194025 [EditorId] 130194025 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BC3PA0A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25032] Host "[IP] 192.168.178.23 [Port] 0 [Flags] 2 [Guid] 3574038633 [EditorId] 3574038633 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BC3PA0A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3916] Host "[IP] 192.168.178.23 [Port] 0 [Flags] 2 [Guid] 130194025 [EditorId] 130194025 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BC3PA0A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 24.34 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 19.21 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -73,44 +73,44 @@ Initialize mono
 Mono path[0] = 'G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: G:/Spiele/Unity Hub/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003706 seconds.
-- Loaded All Assemblies, in  0.374 seconds
+Registered in 0.004639 seconds.
+- Loaded All Assemblies, in  0.264 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.209 seconds
-Domain Reload Profiling: 584ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.204 seconds
+Domain Reload Profiling: 467ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (151ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (89ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (84ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (210ms)
+	FinalizeReload (204ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (163ms)
+		SetupLoadedEditorAssemblies (158ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 584ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.774 seconds
-Refreshing native plugins compatible for Editor in 8.93 ms, found 5 plugins.
+- Loaded All Assemblies, in  0.608 seconds
+Refreshing native plugins compatible for Editor in 6.47 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,571 +147,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.797 seconds
-Domain Reload Profiling: 1567ms
-	BeginReloadAssembly (127ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (567ms)
-		LoadAssemblies (377ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (215ms)
-				TypeCache.ScanAssembly (195ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (798ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (639ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (481ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 11.01 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6659 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 112 unused Assets / (1.6 MB). Loaded Objects now: 7102.
-Memory consumption went from 276.9 MB to 275.3 MB.
-Total: 5.814500 ms (FindLiveObjects: 0.622300 ms CreateObjectMapping: 0.414700 ms MarkObjects: 4.252400 ms  DeleteObjects: 0.524300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1710109.265212 seconds.
-  path: Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef
-  artifactKey: Guid(d7fcb36ee8b32a646b7826558fee2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef using Guid(d7fcb36ee8b32a646b7826558fee2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40874a2c7b5879173f74dcb615c5f500') in 0.007295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.155446 seconds.
-  path: Packages/me.ameye.prefab-painter/Scripts/PrefabPainter.cs
-  artifactKey: Guid(c26dd0ab2f7409a47b76b8d1f4bdd162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/me.ameye.prefab-painter/Scripts/PrefabPainter.cs using Guid(c26dd0ab2f7409a47b76b8d1f4bdd162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1438dd4dde41061be09a52d0f25ec0c') in 0.000819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.142616 seconds.
-  path: Packages/me.ameye.prefab-painter/package.json
-  artifactKey: Guid(b35d47ee365145b458ffb3d9dc316902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/me.ameye.prefab-painter/package.json using Guid(b35d47ee365145b458ffb3d9dc316902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca403fb7388b04c93c48ab8d14b65a05') in 0.008537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 10.150831 seconds.
-  path: Packages/me.ameye.prefab-painter
-  artifactKey: Guid(d1d25216e035afad07564bcb0d42d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/me.ameye.prefab-painter using Guid(d1d25216e035afad07564bcb0d42d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef81c42794965e79ed6dfca7c9a90598') in 0.000672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.060632 seconds.
-  path: Assets/me.ameye.prefab-painter
-  artifactKey: Guid(1996388607b4a67439c01fa7fc0d11fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/me.ameye.prefab-painter using Guid(1996388607b4a67439c01fa7fc0d11fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b8deb27531ec5b85b15004124003ba') in 0.000557 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.478 seconds
-Refreshing native plugins compatible for Editor in 9.89 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.233 seconds
-Domain Reload Profiling: 1708ms
-	BeginReloadAssembly (141ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (281ms)
-		LoadAssemblies (304ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1233ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (528ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (377ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 10.33 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (1.6 MB). Loaded Objects now: 7108.
-Memory consumption went from 245.7 MB to 244.1 MB.
-Total: 4.291200 ms (FindLiveObjects: 0.466800 ms CreateObjectMapping: 0.375000 ms MarkObjects: 3.023300 ms  DeleteObjects: 0.425200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 14.852900 seconds.
-  path: Assets/me.ameye.prefab-painter/Demo Scene.unity
-  artifactKey: Guid(93253d59a5045044ca39e92df981aad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/me.ameye.prefab-painter/Demo Scene.unity using Guid(93253d59a5045044ca39e92df981aad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67473d14434716da57f7b7f9f5ba660') in 0.002821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.985025 seconds.
-  path: Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/Advanced_Pressed_mini.png
-  artifactKey: Guid(c1d870384c7ed3c49b30d01278bf3949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/Advanced_Pressed_mini.png using Guid(c1d870384c7ed3c49b30d01278bf3949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ff136c027b2303b83971bf5d849035') in 0.045734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.012881 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Button_Pressed_Horizontal.png
-  artifactKey: Guid(812226b3d99374891a555960dac7ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Button_Pressed_Horizontal.png using Guid(812226b3d99374891a555960dac7ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfeeb2d413041864d60e8239b90436a0') in 0.013806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Circle-22px_Pressed_Light.png
-  artifactKey: Guid(c8faeb7c7f067c34fbb5fe21fcf640c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Circle-22px_Pressed_Light.png using Guid(c8faeb7c7f067c34fbb5fe21fcf640c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5293c324564fa1ccefde4d90ddc45e81') in 0.013485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconpressedclosebutton.png
-  artifactKey: Guid(94fe868620119564f9474f40cd6145aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconpressedclosebutton.png using Guid(94fe868620119564f9474f40cd6145aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a777cafba8f6524e25597abe0652ec55') in 0.014610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png
-  artifactKey: Guid(ceaaf12e14b14a14a9cfb6c1345984ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png using Guid(ceaaf12e14b14a14a9cfb6c1345984ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae48cab75b2311d905c921e8a66dd59') in 0.015787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.render-pipelines.core/ShaderLibrary/MostRepresentativePoint.hlsl
-  artifactKey: Guid(73b08ea164ce48f382a510231156102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/ShaderLibrary/MostRepresentativePoint.hlsl using Guid(73b08ea164ce48f382a510231156102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8a769cee737a553fb3410b343cb566') in 0.001492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/Deprecated.hlsl
-  artifactKey: Guid(8ac4c7f9b9937b64885ce949fc6d6525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.shadergraph/Editor/Generation/Targets/BuiltIn/ShaderLibrary/Deprecated.hlsl using Guid(8ac4c7f9b9937b64885ce949fc6d6525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beca92cc8c1f9aa1420862d84ba37bdd') in 0.000941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png
-  artifactKey: Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png using Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ad78665677f924cdca4192bd501681') in 0.034645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Object_Pressed_Horizontal.png
-  artifactKey: Guid(65eadc7e5577c458b87403498a117203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Object_Pressed_Horizontal.png using Guid(65eadc7e5577c458b87403498a117203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833bf367938614aa34ab63f7b319e68f') in 0.014992 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.529 seconds
-Refreshing native plugins compatible for Editor in 10.22 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.340 seconds
-Domain Reload Profiling: 1864ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (305ms)
-		LoadAssemblies (359ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1340ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (581ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (414ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 11.57 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (1.6 MB). Loaded Objects now: 7118.
-Memory consumption went from 245.8 MB to 244.2 MB.
-Total: 4.721900 ms (FindLiveObjects: 0.517900 ms CreateObjectMapping: 0.408400 ms MarkObjects: 3.315600 ms  DeleteObjects: 0.478900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Assets/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Packages/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Assets/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Packages/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.549 seconds
-Refreshing native plugins compatible for Editor in 11.11 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Assets/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Packages/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.338 seconds
-Domain Reload Profiling: 1883ms
-	BeginReloadAssembly (152ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (324ms)
-		LoadAssemblies (334ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (60ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (5ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1338ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (584ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (409ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 9.55 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (1.6 MB). Loaded Objects now: 7123.
-Memory consumption went from 245.8 MB to 244.2 MB.
-Total: 5.303700 ms (FindLiveObjects: 0.522600 ms CreateObjectMapping: 0.418000 ms MarkObjects: 3.764400 ms  DeleteObjects: 0.597800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Assets/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Packages/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Assets/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Packages/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.497 seconds
-Refreshing native plugins compatible for Editor in 9.66 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Assets/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Packages/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.480 seconds
-Domain Reload Profiling: 1974ms
-	BeginReloadAssembly (153ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (282ms)
-		LoadAssemblies (336ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1481ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (726ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (124ms)
-			ProcessInitializeOnLoadAttributes (530ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 8.89 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (1.6 MB). Loaded Objects now: 7128.
-Memory consumption went from 245.8 MB to 244.2 MB.
-Total: 4.826700 ms (FindLiveObjects: 0.834200 ms CreateObjectMapping: 0.200800 ms MarkObjects: 3.336300 ms  DeleteObjects: 0.454600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Assets/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Packages/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Assets/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Packages/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.496 seconds
-Refreshing native plugins compatible for Editor in 8.12 ms, found 5 plugins.
-Native extension for WindowsStandalone target not found
-Assembly with name 'ameye.prefabpainter' already exists (Assets/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'ameye.prefabpainter' already exists (Packages/me.ameye.prefab-painter/Scripts/ameye.prefabpainter.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Assets/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-Assembly with name 'Unified.Universal.Blur' already exists (Packages/com.unify.unified-universal-blur/UnifiedUniversalBlur/Scripts/Unified.Universal.Blur.asmdef)
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.610 seconds
-Domain Reload Profiling: 2107ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.740 seconds
+Domain Reload Profiling: 1345ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (279ms)
-		LoadAssemblies (324ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1616ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (740ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (828ms)
+		SetupLoadedEditorAssemblies (597ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (123ms)
-			ProcessInitializeOnLoadAttributes (606ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 12.69 ms, found 5 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.01 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6434 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (1.6 MB). Loaded Objects now: 7133.
-Memory consumption went from 245.8 MB to 244.2 MB.
-Total: 5.530000 ms (FindLiveObjects: 0.529400 ms CreateObjectMapping: 0.476900 ms MarkObjects: 3.944000 ms  DeleteObjects: 0.578700 ms)
+Unloading 6659 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (1.6 MB). Loaded Objects now: 7102.
+Memory consumption went from 276.7 MB to 275.1 MB.
+Total: 4.849900 ms (FindLiveObjects: 0.484900 ms CreateObjectMapping: 0.382900 ms MarkObjects: 3.512400 ms  DeleteObjects: 0.468900 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -725,3 +202,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 534.060626 seconds.
+  path: Assets/Game/Scenes/Test Site/Camera Profile.asset
+  artifactKey: Guid(d1afdf74079d7134bbd1e0adbad3978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scenes/Test Site/Camera Profile.asset using Guid(d1afdf74079d7134bbd1e0adbad3978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c8cbd56dc5bc597722a39d7bf46042') in 0.015221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/Scenes/Test Site
+  artifactKey: Guid(6e169f44fe16248418a73d363bfaa639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Scenes/Test Site using Guid(6e169f44fe16248418a73d363bfaa639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc2dad8c6d59523004cc708cf8990f9') in 0.000401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 116.874915 seconds.
+  path: Assets/DiscordController.cs
+  artifactKey: Guid(6b25e1ec7a739b942a5a616afb7762de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DiscordController.cs using Guid(6b25e1ec7a739b942a5a616afb7762de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf74741992df6cd6c786eaf5d7533ac3') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
