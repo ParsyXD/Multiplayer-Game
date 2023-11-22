@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class PlayerMovementAdvanced : NetworkBehaviour
 {
     [Header("Movement")]
-    bool MovementAllowed = false;
+    public bool hasAuthoritys;
     private float moveSpeed;
     private float desiredMoveSpeed;
     private float lastDesiredMoveSpeed;
@@ -95,7 +95,6 @@ public class PlayerMovementAdvanced : NetworkBehaviour
             {
                 Camera.SetActive(true);
                 SpawnPosition();
-                MovementAllowed = true;
             }
         }
 
@@ -103,8 +102,8 @@ public class PlayerMovementAdvanced : NetworkBehaviour
 
     private void Update()
     {
-
-            if (MovementAllowed)
+        hasAuthoritys = hasAuthority;
+            if (isLocalPlayer)
                 {
                         // ground check
                         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
@@ -126,7 +125,7 @@ public class PlayerMovementAdvanced : NetworkBehaviour
 
     private void FixedUpdate()
     {
-        if (MovementAllowed)
+        if (isLocalPlayer)
         {
             MovePlayer();
         } 
