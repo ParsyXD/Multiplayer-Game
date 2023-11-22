@@ -95,6 +95,7 @@ public class PlayerMovementAdvanced : NetworkBehaviour
             {
                 Camera.SetActive(true);
                 SpawnPosition();
+                MovementAllowed = true;
             }
         }
 
@@ -103,7 +104,6 @@ public class PlayerMovementAdvanced : NetworkBehaviour
     private void Update()
     {
 
-            MovementAllowed = hasAuthority;
             if (MovementAllowed)
                 {
                         // ground check
