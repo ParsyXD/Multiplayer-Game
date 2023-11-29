@@ -183,7 +183,6 @@ namespace Mirror
                 spawnPrefabs.Remove(playerPrefab);
             }
         }
-
         // virtual so that inheriting classes' Reset() can call base.Reset() too
         // Reset only gets called when the component is added or the user resets the component
         // Thats why we validate these things that only need to be validated on adding the NetworkManager here

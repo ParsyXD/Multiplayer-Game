@@ -116,8 +116,8 @@ public class steam_lobby : MonoBehaviour
 
         // Client
         if (NetworkServer.active) {return;} // If already a server, return.
-    manager.networkAddress = SteamMatchmaking.GetLobbyData(new CSteamID(callback.m_ulSteamIDLobby), HostAddressKey);
-    manager.StartClient();
+        manager.networkAddress = SteamMatchmaking.GetLobbyData(new CSteamID(callback.m_ulSteamIDLobby), HostAddressKey);
+        manager.StartClient();
 }
 
     public void JoinLobby(CSteamID lobbyID)

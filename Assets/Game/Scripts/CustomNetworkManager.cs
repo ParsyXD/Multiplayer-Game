@@ -10,8 +10,6 @@ public class CustomNetworkManager : NetworkManager
     [SerializeField] private PlayerObjectController GamePlayerPrefab;
     public List<PlayerObjectController> GamePlayers { get; } = new List<PlayerObjectController>();
 
-    // New fields for dynamically fetching weapon prefabs
-    public string weaponsFolder = "Assets/Game/Weapons";
 
     public override void OnServerAddPlayer(NetworkConnectionToClient conn)
     { 
@@ -29,7 +27,23 @@ public class CustomNetworkManager : NetworkManager
     }
 
 
-    // New method to dynamically fetch weapon prefabs
+    public void StartGame(string SceneName)
+    {
+        ServerChangeScene(SceneName);
+    }
+
+
+
+
+
+
+
+
+
+
+
+    public string weaponsFolder = "Assets/Game/Weapons";
+
     [ContextMenu("Fetch Weapon Prefabs")]
     void FetchWeaponPrefabs()
     {   NetworkManager networkManager = this;
@@ -47,8 +61,5 @@ public class CustomNetworkManager : NetworkManager
         }
     }
 
-    public void StartGame(string SceneName)
-    {
-        ServerChangeScene(SceneName);
-    }
+
 }
