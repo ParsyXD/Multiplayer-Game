@@ -47,8 +47,7 @@ public void UpdateLobbyName()
 
 public void FindLocalPlayer()
 {
-    LocalPlayerObject = GameObject.Find("LocalGamePlayer");
-    LocalplayerController = LocalPlayerObject.GetComponent<PlayerObjectController>();
+    LocalplayerController = PlayerObjectController.instance;
 }
 
 
@@ -60,7 +59,6 @@ public void StartGame()
 }
 
 private CustomNetworkManager Manager
-
   {
     get
     {

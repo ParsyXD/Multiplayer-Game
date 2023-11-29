@@ -13,6 +13,7 @@ public class PlayerObjectController : NetworkBehaviour
     [SyncVar] public int PlayerIdNumber;
     [SyncVar] public ulong PlayerSteamID;
     public GameObject camera;
+    public static PlayerObjectController instance;
 
     private CustomNetworkManager manager;
     private CustomNetworkManager Manager
@@ -33,6 +34,10 @@ public class PlayerObjectController : NetworkBehaviour
 
         if (isLocalPlayer)
         {
+            if(instance == null)
+            {
+                instance = this;
+            }
             camera.gameObject.SetActive(true);
         }
         else
@@ -54,8 +59,7 @@ public class PlayerObjectController : NetworkBehaviour
 
     public override void OnStartAuthority()
     {
-       
-        gameObject.name = "LocalGamePlayer";
+        gameObject.name = "Local Player (You)";
         LobbyController.Instance.FindLocalPlayer();
         LobbyController.Instance.UpdateLobbyName();
     }
@@ -75,7 +79,6 @@ public class PlayerObjectController : NetworkBehaviour
 
 
     //Start Game
-
     public void CanStartGame(string SceneName)
     {
         if (hasAuthority)
