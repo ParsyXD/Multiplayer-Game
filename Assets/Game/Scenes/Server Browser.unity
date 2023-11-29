@@ -676,7 +676,7 @@ MonoBehaviour:
   autoStartServerBuild: 1
   autoConnectClientBuild: 0
   sendRate: 80
-  offlineScene: 
+  offlineScene: Assets/Game/Scenes/Server Browser.unity
   onlineScene: 
   transport: {fileID: 438644259}
   networkAddress: localhost
@@ -738,7 +738,7 @@ MonoBehaviour:
   Ui: {fileID: 1771459965}
   LoadingUi: {fileID: 1560989269}
   LoadingScreens:
-  - {fileID: 21300000, guid: 8c32aaef8c32a3944bd0918991b8f0f6, type: 3}
+  - {fileID: 21300000, guid: 04575e293a8f5ec428d2f6b3f112f80f, type: 3}
 --- !u!114 &438644263
 MonoBehaviour:
   m_ObjectHideFlags: 0

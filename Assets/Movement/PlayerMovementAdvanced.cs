@@ -5,10 +5,9 @@ using TMPro;
 using Mirror;
 using UnityEngine.SceneManagement;
 
-public class PlayerMovementAdvanced : NetworkBehaviour
+public class PlayerMovementAdvanced : MonoBehaviour
 {
     [Header("Movement")]
-    public bool hasAuthoritys;
     private float moveSpeed;
     private float desiredMoveSpeed;
     private float lastDesiredMoveSpeed;
@@ -81,54 +80,36 @@ public class PlayerMovementAdvanced : NetworkBehaviour
 
     private void Start() 
     {
-        Camera.SetActive(false);
-        
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
         readyToJump = true;
         startYScale = transform.localScale.y;
-
-        if (hasAuthority)
-        {
-            if (Camera.activeSelf == false)
-            {
-                Camera.SetActive(true);
-                SpawnPosition();
-            }
-        }
+        
+        SpawnPosition();
 
     }
 
     private void Update()
     {
-        hasAuthoritys = hasAuthority;
-            if (isLocalPlayer)
-                {
-                        // ground check
-                        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
-                        MyInput();
-                        SpeedControl();
-                        StateHandler();
+        // ground check
+        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
-                        // handle drag
-                        if (grounded)
-                            rb.drag = groundDrag;
-                        else
-                            rb.drag = 0;
-                }
+        MyInput();
+        SpeedControl();
+        StateHandler();
 
-                
-                
+        // handle drag
+        if (grounded)
+            rb.drag = groundDrag;
+        else
+            rb.drag = 0;
     }
 
     private void FixedUpdate()
     {
-        if (isLocalPlayer)
-        {
             MovePlayer();
-        } 
     }
 
     private void MyInput()

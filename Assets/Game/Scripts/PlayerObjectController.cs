@@ -12,7 +12,7 @@ public class PlayerObjectController : NetworkBehaviour
     [SyncVar] public int ConnectionID;
     [SyncVar] public int PlayerIdNumber;
     [SyncVar] public ulong PlayerSteamID;
-    public Camera playerCamera;
+    public GameObject camera;
 
     private CustomNetworkManager manager;
     private CustomNetworkManager Manager
@@ -33,13 +33,11 @@ public class PlayerObjectController : NetworkBehaviour
 
         if (isLocalPlayer)
         {
-            // Enable the camera for the local player
-            playerCamera.gameObject.SetActive(true);
+            camera.gameObject.SetActive(true);
         }
         else
         {
-            // Disable the camera for remote players
-            playerCamera.gameObject.SetActive(false);
+            camera.gameObject.SetActive(false);
         }
     }
 

@@ -10,7 +10,7 @@ public class PointSystem : MonoBehaviour
     public AudioClip hitmarker;
     public AudioClip killSound;
 
-     [Header("Animation")]
+    [Header("Animation")]
     public Animation hitmarkerAnimation;
     public Animation killAnimation;
     public GameObject hitmarkerAnimationGameObject;

@@ -1096,17 +1096,18 @@ GameObject:
   m_Component:
   - component: {fileID: 2980247756766495086}
   - component: {fileID: 2108147523722320443}
+  - component: {fileID: 1522873874193800811}
   - component: {fileID: 5760734376505822632}
   - component: {fileID: 8555073674644997880}
   - component: {fileID: 1452401777425132769}
   - component: {fileID: 7347034784974016043}
-  - component: {fileID: 1522873874193800811}
   - component: {fileID: 7113684972433661366}
   - component: {fileID: 6479283790165817843}
   - component: {fileID: 2860643127499631558}
   - component: {fileID: 2119486657500160458}
   - component: {fileID: 2397444448862010467}
   - component: {fileID: 7287132828257634962}
+  - component: {fileID: 9208592996870711100}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -1160,6 +1161,25 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!114 &1522873874193800811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926586000642262952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac639a9dab046bc4fbfbbc4c885b2b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0.1
+  ConnectionID: 0
+  PlayerIdNumber: 0
+  PlayerSteamID: 0
+  camera: {fileID: 1800514806448625051}
 --- !u!114 &5760734376505822632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,9 +1192,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb0862e1b5544fc4bb916c43e2eaf995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0.1
   walkSpeed: 8
   sprintSpeed: 13
   slideSpeed: 35
@@ -1286,25 +1303,6 @@ MonoBehaviour:
   minWallNormalAngleChange: 5
   exitingWall: 0
   exitWallTime: 0.2
---- !u!114 &1522873874193800811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3926586000642262952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac639a9dab046bc4fbfbbc4c885b2b7f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0.1
-  ConnectionID: 0
-  PlayerIdNumber: 0
-  PlayerSteamID: 0
-  playerCamera: {fileID: 1043543442565316388}
 --- !u!114 &7113684972433661366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1444,6 +1442,28 @@ MonoBehaviour:
   compressRotation: 0
   positionPrecision: 0.01
   scalePrecision: 0.01
+--- !u!114 &9208592996870711100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926586000642262952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a6e6ecb591bcda49a28a29089f7c9fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0
+  scripts:
+  - {fileID: 5760734376505822632}
+  - {fileID: 8555073674644997880}
+  - {fileID: 1452401777425132769}
+  - {fileID: 7347034784974016043}
+  - {fileID: 6479283790165817843}
+  - {fileID: 2860643127499631558}
 --- !u!1 &5065717941566841139
 GameObject:
   m_ObjectHideFlags: 0

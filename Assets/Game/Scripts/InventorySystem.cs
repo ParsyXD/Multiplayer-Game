@@ -8,16 +8,9 @@ public class InventorySystem : NetworkBehaviour
     public GameObject gunPrefab;
     public Transform weaponHolder;
     
-    void Start()
-    {
-        if (!isLocalPlayer)return;
-
-    }
 
     private void Update() 
     {
-        if (!isLocalPlayer)return;
-
         if (Input.GetKeyDown(KeyCode.E))
         {
             CmdPickupGun();

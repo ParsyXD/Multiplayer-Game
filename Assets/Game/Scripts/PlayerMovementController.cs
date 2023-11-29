@@ -28,7 +28,7 @@ public class PlayerMovementController : NetworkBehaviour
                 PlayerModel.SetActive(true);
                 SpawnPosition();
             }
-            MovementAllowed = hasAuthority;
+            MovementAllowed = isOwned;
             if (MovementAllowed)
     {
         float xDirection = Input.GetAxis("Horizontal");
