@@ -11,7 +11,12 @@ public class NetworkScripts : NetworkBehaviour
     void Start()
     {
         if(isLocalPlayer)Toggle(true);
-        else Toggle(false);
+        else 
+        {
+            Toggle(false);
+            Debug.LogError("this means parsy coded wrong -> the joined player is not recognized as *local player*");
+            Debug.LogWarning("hasAuthority " + hasAuthority + "isLocalPlayer "+ isLocalPlayer);
+        }
     }
 
     void Toggle(bool isLocalPlayer)
